@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Reminders_SwiftDataApp: App {
+struct RemindersCloneApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
