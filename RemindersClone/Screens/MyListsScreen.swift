@@ -11,6 +11,7 @@ struct MyListsScreen: View {
     
     let myLists = ["Reminders", "Groceries", "Entertainment"]
     
+    @State private var isPresented: Bool = false
     
     var body: some View {
         List {
@@ -27,7 +28,7 @@ struct MyListsScreen: View {
             }
             
             Button(action: {
-                
+                isPresented = true
             }, label: {
                 Text("Add List")
                     .foregroundStyle(.blue)
@@ -35,7 +36,11 @@ struct MyListsScreen: View {
             }).listRowSeparator(.hidden)
             
         }.listStyle(.plain)
-        
+            .sheet(isPresented: $isPresented) {
+                NavigationStack {
+                    AddMyListScreen()
+                }
+            }
     }
 }
 
