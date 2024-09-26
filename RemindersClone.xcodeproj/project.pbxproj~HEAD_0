@@ -30,9 +30,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2A5BE8FF2CA4B3A300B5A9D2 /* RemindersClone */ = {
+		2A98154D2CA4840900E253F8 /* RemindersClone */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RemindersClone;
+			sourceTree = "<group>";
+		};
+		2A98155E2CA4840B00E253F8 /* RemindersCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RemindersCloneTests;
+			sourceTree = "<group>";
+		};
+		2A9815682CA4840B00E253F8 /* RemindersCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RemindersCloneTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -65,7 +75,9 @@
 		2A9815422CA4840900E253F8 = {
 			isa = PBXGroup;
 			children = (
-				2A5BE8FF2CA4B3A300B5A9D2 /* RemindersClone */,
+				2A98154D2CA4840900E253F8 /* RemindersClone */,
+				2A98155E2CA4840B00E253F8 /* RemindersCloneTests */,
+				2A9815682CA4840B00E253F8 /* RemindersCloneTests */,
 				2A98154C2CA4840900E253F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2A5BE8FF2CA4B3A300B5A9D2 /* RemindersClone */,
+				2A98154D2CA4840900E253F8 /* RemindersClone */,
 			);
 			name = RemindersClone;
 			packageProductDependencies = (
@@ -118,6 +130,9 @@
 			dependencies = (
 				2A98155D2CA4840B00E253F8 /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				2A98155E2CA4840B00E253F8 /* RemindersCloneTests */,
+			);
 			name = RemindersCloneTests;
 			packageProductDependencies = (
 			);
@@ -137,6 +152,9 @@
 			);
 			dependencies = (
 				2A9815672CA4840B00E253F8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2A9815682CA4840B00E253F8 /* RemindersCloneTests */,
 			);
 			name = RemindersCloneUITests;
 			packageProductDependencies = (
@@ -377,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RemindersClone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Reminders-SwiftData/Preview Content\"";
 				DEVELOPMENT_TEAM = 2M5H6T53K2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -406,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RemindersClone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Reminders-SwiftData/Preview Content\"";
 				DEVELOPMENT_TEAM = 2M5H6T53K2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
